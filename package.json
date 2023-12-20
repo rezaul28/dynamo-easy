@@ -1,0 +1,19 @@
+{
+  "name": "wrap-dynamodb",
+  "version": "1.0.1",
+  "description": "easy to use dynamoDB packages",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rezaul Karim",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rezaul28/wrap-dynamodb.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rezaul28/wrap-dynamodb/issues"
+  },
+  "homepage": "https://github.com/rezaul28/wrap-dynamodb#readme"
+}
