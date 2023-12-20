@@ -2,11 +2,11 @@
 A package to wrap dynamoDB operations. For this package DynamoDB.DocumentClient() is being used.
 
 ## Upsert Items
-const AWS = require("aws-sdk");\
-const ddbClient = new AWS.DynamoDB.DocumentClient();\
-const dynamoDB = require("wrap-dynamodb");\
-
 ```javascript
+const AWS = require("aws-sdk");
+const ddbClient = new AWS.DynamoDB.DocumentClient();
+const dynamoDB = require("wrap-dynamodb");
+
 function interactWithTable() {
     // Specify the name of your table
     const tableName = YOUR_TABLE_NAME;
@@ -24,7 +24,7 @@ function interactWithTable() {
         col3 : {abc : 123},
         xyz:1,
         pqr : "abc"
-    }
+    };
 
     //ignore keys (optional)
     const keysToIgnore = ["xyz","pqr"]
